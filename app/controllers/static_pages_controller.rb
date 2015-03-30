@@ -7,12 +7,15 @@ class StaticPagesController < ApplicationController
     end
   end
 
-  def help
+  def llegar
   end
 
-  def about
+  def ponentes
   end
 
-  def contact
+  def programa
   end
+
+  def condiciones
+  end  
 end

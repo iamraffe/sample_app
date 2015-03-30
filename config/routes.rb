@@ -11,13 +11,13 @@ Rails.application.routes.draw do
 
   root 'static_pages#home'
 
-  get 'help' => 'static_pages#help'
+  get 'programa' => 'static_pages#programa'
 
-  get 'about'   => 'static_pages#about'
+  get 'ponentes'   => 'static_pages#ponentes'
   
-  get 'contact' => 'static_pages#contact'
+  get 'llegar' => 'static_pages#llegar'
 
-  get 'signup'  => 'users#new'
+  get 'condiciones'  => 'static_pages#condiciones'
 
   get    'login'   => 'sessions#new'
   post   'login'   => 'sessions#create'
